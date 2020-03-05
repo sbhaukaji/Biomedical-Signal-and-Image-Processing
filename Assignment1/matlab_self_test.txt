@@ -1,0 +1,39 @@
+HST.582J/6.555J/16.456J Spring 2007
+MATLAB Self-Test
+Originally written by Courtney Lane.
+
+The MATLAB tutorial is intended to get everyone up and running on MATLAB 
+(and basic Athena navigation). This review is optional.
+
+Below is a MATLAB self-test. If you are a reasonably skilled MATLAB user, then 
+you should be able to pass this test within 5-10 minutes. If you cannot pass the 
+test, then you should definitely attend the tutorial.
+
+Directions:  Perform the following computations WITHOUT USING ANY LOOPS! (If you 
+don't know why there should be no loops, then you should probably come to the 
+review session.)  If you correctly perform the operations, you'll get a nice 
+message  at the end .
+
+Your time begins........ now. Good luck!
+
+1.  Load the provided file x.mat into matlab .
+
+2.  Plot this vector, label the x axis "n" and the y axis "Amplitude", and give 
+the plot the title "Pseudo-Random Noise Samples"
+
+3.  Create y, a vector that contains the samples of x half-wave rectified. (That 
+is, replace all of the negative samples in x with zeros)
+
+4.  Plot x and y on the same plot with a legend telling which vector is which.
+
+5.  Create z which has every other sample of y in it (the first, third, fifth, 
+etc.)
+
+6.  Create the vector Done, which contains the samples in z rounded to the 
+nearest integer.
+
+7.  Copy the following lines into your matlab window:
+      alpha = 'abcdefghiIjklmMnopqrstuvwxyYz!" ';
+      alpha(Done)
+
+DONE!
